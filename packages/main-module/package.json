@@ -1,0 +1,10 @@
+{
+  "name": "main-module",
+  "packageManager": "yarn@4.9.1",
+  "dependencies": {
+    "@types/sub-module-1-without-dts": "workspace:*",
+    "sub-module-1": "workspace:*",
+    "sub-module-1-without-dts": "workspace:*",
+    "sub-module-2-tsc": "workspace:*"
+  }
+}

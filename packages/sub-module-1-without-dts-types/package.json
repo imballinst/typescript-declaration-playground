@@ -1,0 +1,5 @@
+{
+  "name": "@types/sub-module-1-without-dts",
+  "packageManager": "yarn@4.9.1",
+  "types": "index.d.ts"
+}

@@ -1,6 +1,11 @@
 {
   "name": "sub-module-2-tsc",
   "packageManager": "yarn@4.9.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist --declaration"
+  },
   "devDependencies": {
     "typescript": "5.8.3"
   }
